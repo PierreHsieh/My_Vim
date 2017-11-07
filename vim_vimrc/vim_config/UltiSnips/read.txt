@@ -1,0 +1,6 @@
+copy to  ~/.vim/bundle/ultisnips/mysnippets/cpp.snippets
+
+mkdir ~/.vim/bundle/ultisnips/mysnippets
+cp ~/vim_config/UltiSnips/*.snippets ~/.vim/bundle/ultisnips/mysnippets/
+
+let g:UltiSnipsSnippetDirectories=["mysnippets"] 
